@@ -1,0 +1,10 @@
+function [a] = stats(x)
+%UNTITLED3 Summary of this function goes here
+%   Detailed explanation goes here
+max_a=max(x);
+min_a=min(x);
+mean_a=mean(x);
+median_a=median(x);
+mode_a=mode(x);
+a=[max_a,min_a,mean_a,median_a,mode_a];
+end
